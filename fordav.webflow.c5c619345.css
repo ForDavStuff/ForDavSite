@@ -1,4 +1,4 @@
-/* Generated on: Thu Mar 23 2023 19:14:51 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Mar 26 2023 11:54:13 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1082,7 +1082,7 @@
   color: #fff;
   font-size: 7vw;
   line-height: 9vw;
-  font-weight: 700;
+  font-weight: 500;
   text-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -1138,7 +1138,7 @@
   margin-bottom: 5vh;
   font-family: Dosis, sans-serif;
   color: #2ec4b6;
-  font-size: 6vw;
+  font-size: 5vw;
   line-height: 83.49999785423279%;
   font-weight: 700;
   letter-spacing: 0.015em;
@@ -1234,7 +1234,7 @@
   color: #2ec4b6;
   font-size: 500%;
   line-height: 120%;
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
   letter-spacing: 0em;
 }
@@ -1281,10 +1281,10 @@
 
 .text-21 {
   margin-top: 10vh;
-  margin-bottom: 11vh;
+  margin-bottom: 8vw;
   font-family: Dosis, sans-serif;
   color: #ff9f1c;
-  font-size: 6vw;
+  font-size: 4.5vw;
   line-height: 83.49999785423279%;
   font-weight: 700;
   letter-spacing: 0.015em;
@@ -1320,8 +1320,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  grid-column-gap: 5%;
-  grid-row-gap: 5%;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
 }
 
 .portfoliotitles {
@@ -1329,7 +1329,7 @@
   color: #ff9f1c;
   font-size: 5vw;
   line-height: 100%;
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
   letter-spacing: 0em;
 }
@@ -1341,7 +1341,7 @@
   color: #ff9f1c;
   font-size: 1.5vw;
   line-height: 120%;
-  font-weight: 500;
+  font-weight: 300;
   text-align: center;
   letter-spacing: 0em;
   white-space: break-spaces;
@@ -1362,6 +1362,7 @@
   border-width: 5px;
   border-color: #ffbf69;
   border-radius: 26px;
+  background-color: #ffbf69;
 }
 
 .servizi {
@@ -1390,7 +1391,7 @@
   border-style: none;
   border-width: 5px;
   border-color: #2ec4b6;
-  border-radius: 40px;
+  border-radius: 21px;
   background-color: #fff;
 }
 
@@ -1409,7 +1410,7 @@
   margin-bottom: 15vh;
   font-family: Dosis, sans-serif;
   color: #2ec4b6;
-  font-size: 6vw;
+  font-size: 5vw;
   line-height: 120%;
   font-weight: 700;
   letter-spacing: 0.015em;
@@ -1420,7 +1421,7 @@
   color: #2ec4b6;
   font-size: 1.5vw;
   line-height: 120%;
-  font-weight: 500;
+  font-weight: 300;
   letter-spacing: 0em;
 }
 
@@ -1483,8 +1484,8 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  grid-column-gap: 1vh;
-  grid-row-gap: 1vh;
+  grid-column-gap: 1vw;
+  grid-row-gap: 1vw;
 }
 
 .form {
@@ -1523,10 +1524,10 @@
 .social {
   position: relative;
   display: flex;
-  width: auto;
+  width: 4vw;
   height: auto;
-  max-height: 10vh;
-  max-width: 6vh;
+  max-height: none;
+  max-width: none;
   padding: 0px;
   flex-direction: column;
   justify-content: center;
@@ -1746,17 +1747,17 @@
   height: 14vw;
   min-height: auto;
   margin: 0%;
-  padding-top: 23%;
+  padding-top: 24%;
   padding-right: 0%;
   padding-bottom: 15%;
   -ms-grid-row-align: center;
   align-self: center;
-  border-radius: 16px;
-  background-color: rgba(255, 159, 28, 0);
+  border-radius: 22px;
+  background-color: #ff9f1c;
   font-family: Dosis, sans-serif;
-  color: #ff9f1c;
+  color: #fff;
   font-size: 300%;
-  font-weight: 500;
+  font-weight: 300;
   text-align: center;
   text-transform: none;
 }
@@ -1933,7 +1934,7 @@
 }
 
 .portfolio-video {
-  z-index: 0;
+  z-index: 2;
   width: 100%;
   height: 14.5vw;
   min-height: 5px;
@@ -1941,6 +1942,7 @@
   order: 0;
   border-radius: 20px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  opacity: 1;
 }
 
 .footer {
@@ -2113,12 +2115,12 @@
   color: rgba(51, 51, 51, 0);
 }
 
-.directcontact {
+.phonecontact {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  grid-column-gap: 85px;
-  grid-row-gap: 85px;
+  grid-column-gap: 4vw;
+  grid-row-gap: 4vw;
 }
 
 .phonetext {
@@ -2127,8 +2129,8 @@
   font-family: Dosis, sans-serif;
   color: #ff9f1c;
   font-size: 2vw;
-  font-weight: 600;
-  letter-spacing: 0.3px;
+  font-weight: 300;
+  letter-spacing: 1px;
 }
 
 .phonetext-copy {
@@ -2137,8 +2139,8 @@
   font-family: Dosis, sans-serif;
   color: #ff9f1c;
   font-size: 2vw;
-  font-weight: 600;
-  letter-spacing: 0px;
+  font-weight: 300;
+  letter-spacing: -0.5px;
 }
 
 .section {
@@ -2161,10 +2163,10 @@
 .directcontacticons {
   position: relative;
   display: flex;
-  width: auto;
+  width: 5vw;
   height: auto;
-  max-height: 8vh;
-  max-width: 8vh;
+  max-height: none;
+  max-width: none;
   padding: 0px;
   flex-direction: column;
   justify-content: center;
@@ -2189,11 +2191,15 @@
   grid-row-gap: 60px;
 }
 
+.biobulletpoints {
+  font-weight: 300;
+}
+
 .div-block {
   display: flex;
   flex-direction: column;
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
+  grid-column-gap: 60px;
+  grid-row-gap: 60px;
 }
 
 .servizicard {
@@ -2211,6 +2217,7 @@
   border-width: 5px;
   border-color: #2ec4b6;
   border-radius: 26px;
+  background-color: #2ec4b6;
 }
 
 .portfoliolefttext {
@@ -2224,6 +2231,38 @@
   align-content: center;
   grid-column-gap: 60px;
   grid-row-gap: 60px;
+}
+
+.videodirectbutton {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(56, 152, 236, 0);
+  color: rgba(51, 51, 51, 0);
+}
+
+.mailcontact {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  grid-column-gap: 2vw;
+  grid-row-gap: 2vw;
+}
+
+.text-block-3 {
+  padding-bottom: 2px;
+  font-family: Dosis, sans-serif;
+  color: #2ec4b6;
+  font-size: 1.6vw;
+  line-height: 100%;
+  letter-spacing: 0.5px;
+}
+
+.text-span-3 {
+  letter-spacing: 0px;
+}
+
+.text-span-4 {
+  letter-spacing: 0px;
 }
 
 @media screen and (max-width: 991px) {
@@ -2347,7 +2386,8 @@
   }
 
   .chisonotitle {
-    font-size: 9vw;
+    margin-bottom: 4vh;
+    font-size: 7vw;
   }
 
   .bio {
@@ -2361,15 +2401,21 @@
   }
 
   .servizititles {
-    font-size: 400%;
+    font-size: 6vw;
+    line-height: 100%;
   }
 
   .text-21 {
-    font-size: 9vw;
+    font-size: 7vw;
   }
 
   .portfoliotitles {
+    font-size: 6vw;
     line-height: 100%;
+  }
+
+  .portfoliotexts {
+    font-size: 2vw;
   }
 
   .portfoliocard {
@@ -2381,8 +2427,12 @@
     object-fit: fill;
   }
 
+  .text-24 {
+    font-size: 7vw;
+  }
+
   .servizitexts {
-    font-size: 1.5vw;
+    font-size: 2vw;
     text-align: center;
     white-space: break-spaces;
   }
@@ -2395,6 +2445,11 @@
     width: 80vw;
     justify-items: center;
     align-items: center;
+  }
+
+  .biophototext {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
   }
 
   .servizicardwrong {
@@ -2416,6 +2471,14 @@
     justify-content: center;
     align-items: center;
     font-size: 4vw;
+  }
+
+  .image-2 {
+    border-radius: 1vw;
+  }
+
+  .image-5 {
+    border-radius: 1vw;
   }
 
   .portfolio-video {
@@ -2448,9 +2511,9 @@
     color: #fff;
   }
 
-  .directcontact {
-    grid-column-gap: 5vw;
-    grid-row-gap: 5vw;
+  .phonecontact {
+    grid-column-gap: 7vw;
+    grid-row-gap: 7vw;
   }
 
   .phonetext {
@@ -2467,7 +2530,7 @@
   }
 
   .contacts {
-    width: 46vw;
+    width: 45vw;
   }
 
   .portfoliorighttext {
@@ -2493,6 +2556,15 @@
 
   .portfoliolefttext {
     width: 70vw;
+  }
+
+  .mailcontact {
+    grid-column-gap: 4vw;
+    grid-row-gap: 4vw;
+  }
+
+  .text-block-3 {
+    font-size: 2.5vw;
   }
 }
 
@@ -2551,17 +2623,31 @@
     margin-top: 10px;
   }
 
+  .chisono-2 {
+    padding-top: 60px;
+  }
+
   .chisonotitle {
+    margin-top: 0vh;
     margin-bottom: 30px;
-    font-size: 9vw;
     line-height: 100%;
+  }
+
+  .bio {
+    grid-column-gap: 60px;
+    grid-row-gap: 60px;
   }
 
   .servizititles {
     font-size: 8vw;
   }
 
+  .outline-8 {
+    padding-top: 60px;
+  }
+
   .text-21 {
+    margin-top: 0vh;
     line-height: 100%;
   }
 
@@ -2577,7 +2663,13 @@
     height: 40vw;
   }
 
+  .outline-9 {
+    padding-top: 60px;
+  }
+
   .text-24 {
+    margin-top: 0vh;
+    margin-bottom: 60px;
     font-size: 9vw;
     line-height: 100%;
   }
@@ -2588,8 +2680,10 @@
 
   .links {
     flex-direction: row;
-    grid-column-gap: 0vw;
-    grid-row-gap: 0vw;
+  }
+
+  .social {
+    width: 8vw;
   }
 
   .biophototext {
@@ -2598,8 +2692,17 @@
     grid-row-gap: 30px;
   }
 
+  .portfolioseemore {
+    height: 100vw;
+    font-size: 8vw;
+  }
+
   .image-2 {
     max-width: 80%;
+  }
+
+  .image-5 {
+    border-radius: 2vw;
   }
 
   .footer {
@@ -2626,7 +2729,7 @@
     margin-left: 20px;
   }
 
-  .directcontact {
+  .phonecontact {
     grid-column-gap: 5vw;
     grid-row-gap: 5vw;
   }
@@ -2639,14 +2742,24 @@
     font-size: 4vw;
   }
 
+  .section {
+    width: 50vw;
+    margin-left: 5vw;
+    align-items: flex-start;
+  }
+
   .contacts {
     flex-direction: column;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
   }
 
+  .directcontacticons {
+    width: 9vw;
+  }
+
   .portfoliorighttext {
-    padding-bottom: 30px;
+    padding-bottom: 0px;
     flex-direction: column;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
@@ -2656,15 +2769,31 @@
     text-align: center;
   }
 
+  .div-block {
+    grid-column-gap: 60px;
+    grid-row-gap: 60px;
+  }
+
   .servizicard {
     height: 40vw;
   }
 
   .portfoliolefttext {
-    padding-bottom: 30px;
+    padding-bottom: 0px;
     flex-direction: column-reverse;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
+  }
+
+  .mailcontact {
+    width: auto;
+    margin-left: 0vw;
+    grid-column-gap: 5vw;
+    grid-row-gap: 5vw;
+  }
+
+  .text-block-3 {
+    font-size: 4vw;
   }
 }
 
@@ -2677,8 +2806,30 @@
     flex-direction: column;
   }
 
+  .menu-button {
+    z-index: 2;
+  }
+
+  .navbar-5 {
+    padding-left: 0px;
+  }
+
+  .navbarcontainer-5 {
+    padding-left: 5vw;
+  }
+
+  .outline-6 {
+    padding: 0px;
+  }
+
+  .text-block {
+    font-size: 8vw;
+    line-height: 9vw;
+  }
+
   .chisono-2 {
     padding-top: 0vh;
+    padding-bottom: 0vh;
     flex-direction: column;
   }
 
@@ -2688,7 +2839,24 @@
   }
 
   .chisonotitle {
-    font-size: 10vw;
+    min-width: 60vw;
+    margin-top: 10vw;
+    margin-bottom: 5vw;
+    -ms-grid-row-align: center;
+    align-self: center;
+    font-size: 14vw;
+    text-align: center;
+  }
+
+  .bio {
+    grid-column-gap: 5vw;
+    grid-row-gap: 5vw;
+  }
+
+  .biophotocard {
+    width: 40vw;
+    height: 40vw;
+    border-radius: 4.9vw;
   }
 
   .servizititles {
@@ -2697,42 +2865,88 @@
 
   .outline-8 {
     padding-top: 0px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
   }
 
   .text-21 {
-    margin-top: 0vh;
-    margin-bottom: 30px;
+    margin-top: 10vw;
+    font-size: 14vw;
+  }
+
+  .videowriting {
+    grid-column-gap: 0.25em;
+    grid-row-gap: 0.25em;
+  }
+
+  .portfoliotitles {
     font-size: 10vw;
+  }
+
+  .portfoliotexts {
+    font-size: 5vw;
+  }
+
+  .servizi {
+    padding-bottom: 0vh;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
   }
 
   .outline-9 {
     padding-top: 0vh;
-  }
-
-  .text-24 {
-    margin-top: 0vh;
-    margin-bottom: 30px;
-    font-size: 10vw;
-  }
-
-  .links {
-    grid-column-gap: 2vw;
-    grid-row-gap: 2vw;
-  }
-
-  .headervideo {
-    height: 21vh;
-    min-height: auto;
-  }
-
-  .biophototext {
-    padding-left: 0vw;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
   }
 
+  .text-24 {
+    margin-top: 10vw;
+    margin-bottom: 5vw;
+    font-size: 14vw;
+  }
+
+  .servizitexts {
+    font-size: 5vw;
+  }
+
+  .outline-10 {
+    padding-top: 0vh;
+    padding-bottom: 30px;
+  }
+
+  .links {
+    grid-column-gap: 7vw;
+    grid-row-gap: 7vw;
+  }
+
+  .headervideo {
+    height: 60vw;
+    min-height: auto;
+    background-color: rgba(20, 15, 8, 0.61);
+  }
+
+  .biophototext {
+    width: 100vw;
+    padding-bottom: 5vw;
+    padding-left: 0vw;
+    grid-column-gap: 5vw;
+    grid-row-gap: 5vw;
+  }
+
+  .portfolioseemore {
+    height: 100%;
+    color: #fff;
+    font-size: 8vw;
+    line-height: 20;
+  }
+
   .image-2 {
     max-width: 12vw;
+    border-radius: 9px;
+  }
+
+  .image-5 {
+    max-width: 15vw;
   }
 
   .container-2 {
@@ -2759,21 +2973,54 @@
     margin-top: 20px;
   }
 
+  .list {
+    height: auto;
+  }
+
   .phonetext {
-    font-size: 6vw;
+    font-size: 7vw;
   }
 
   .phonetext-copy {
-    font-size: 6vw;
+    font-size: 7vw;
   }
 
   .section {
     min-width: 70vw;
+    margin-left: 0vw;
   }
 
   .biobulletpoints {
-    font-size: 10vw;
+    font-size: 8vw;
+    line-height: 100%;
   }
+
+  .div-block {
+    overflow: visible;
+    padding-bottom: 5vw;
+    flex: 0 auto;
+    grid-column-gap: 10vw;
+    grid-row-gap: 10vw;
+  }
+
+  .text-block-3 {
+    font-size: 4.5vw;
+  }
+}
+
+#w-node-_33a43af2-44ab-9149-533f-8b6b7cf3205e-ad02d2c8 {
+  -ms-grid-row-align: auto;
+  align-self: auto;
+  -ms-grid-column-align: auto;
+  justify-self: auto;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
 }
 
 #w-node-_95f6716b-1318-06a2-c4eb-d108b03e670c-ad02d2c8 {
@@ -2792,21 +3039,6 @@
 }
 
 #w-node-dca47bde-3776-c096-7246-bbd47d81a2a9-ad02d2c8 {
-  -ms-grid-column: span 1;
-  grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-}
-
-#w-node-_33a43af2-44ab-9149-533f-8b6b7cf3205e-ad02d2c8 {
-  -ms-grid-row-align: auto;
-  align-self: auto;
-  -ms-grid-column-align: auto;
-  justify-self: auto;
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
