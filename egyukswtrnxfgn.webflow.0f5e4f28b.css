@@ -1,4 +1,4 @@
-/* Generated on: Sat Apr 01 2023 21:23:50 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Apr 02 2023 10:10:10 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -326,7 +326,6 @@
 
 .servizisection {
   display: flex;
-  width: 1440px;
   max-width: 1440px;
   padding-top: 10vw;
   padding-left: 0vw;
