@@ -1,4 +1,4 @@
-/* Generated on: Sun Apr 02 2023 17:32:25 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Apr 02 2023 17:53:00 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1094,8 +1094,8 @@
 }
 
 .image-4 {
-  width: 70%;
-  height: 40%;
+  width: auto;
+  height: 3vw;
   -o-object-fit: contain;
   object-fit: contain;
 }
@@ -1103,7 +1103,7 @@
 .contactstext {
   font-family: Jost, sans-serif;
   color: #2ec4b6;
-  font-size: 2.5vw;
+  font-size: 3vw;
   line-height: 1em;
 }
 
@@ -1119,7 +1119,7 @@
   display: flex;
   height: 80%;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   grid-column-gap: 20%;
   grid-row-gap: 20%;
@@ -2231,9 +2231,8 @@
     max-width: none;
   }
 
-  .mailphonetext {
-    grid-column-gap: 60%;
-    grid-row-gap: 60%;
+  .popupcontactarea {
+    padding-top: 5%;
   }
 
   .contactstext {
@@ -2242,7 +2241,14 @@
   }
 
   .contactcolumns {
+    width: 100%;
     flex-direction: column;
+  }
+
+  .mailphonearea {
+    padding-left: 0%;
+    grid-column-gap: 0%;
+    grid-row-gap: 0%;
   }
 
   .sociallinkspopup {
