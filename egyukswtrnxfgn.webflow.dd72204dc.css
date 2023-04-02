@@ -1,4 +1,4 @@
-/* Generated on: Sun Apr 02 2023 10:10:10 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Apr 02 2023 10:19:39 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1808,7 +1808,7 @@
   }
 
   .showoffcolumns {
-    width: 80vw;
+    width: 90vw;
   }
 
   .showoffrows {
@@ -1820,7 +1820,7 @@
   }
 
   .image {
-    width: 25vw;
+    width: 40vw;
   }
 
   .biotitle {
@@ -1829,7 +1829,7 @@
 
   .text-block-2 {
     width: auto;
-    font-size: 3vw;
+    font-size: 4vw;
   }
 
   .container-3 {
@@ -1841,12 +1841,12 @@
   }
 
   .homepagevideo {
-    width: 60vw;
-    height: 33vw;
+    width: 70vw;
+    height: 39vw;
   }
 
   .chisonobiodivider {
-    margin-top: -3%;
+    margin-top: -2%;
   }
 
   .navportfolio {
