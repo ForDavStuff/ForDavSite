@@ -1,4 +1,4 @@
-/* Generated on: Sun Apr 02 2023 11:20:01 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Apr 02 2023 17:32:25 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -258,7 +258,7 @@
   align-items: center;
   font-family: Jost, sans-serif;
   color: #fff;
-  font-size: 50px;
+  font-size: 40px;
   text-decoration: none;
 }
 
@@ -276,7 +276,7 @@
   position: relative;
   font-family: Jost, sans-serif;
   font-size: 5vw;
-  line-height: 1.2em;
+  line-height: 1em;
   font-weight: 300;
   text-align: center;
   text-transform: uppercase;
@@ -325,20 +325,25 @@
   font-weight: 400;
 }
 
-.servizisection {
+.servizicards {
+  position: relative;
   display: flex;
+  overflow: visible;
   max-width: 1440px;
-  padding-top: 10vw;
+  padding-top: 15vw;
   padding-left: 0vw;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  grid-column-gap: 7vw;
-  grid-row-gap: 7vw;
+  grid-column-gap: 5vw;
+  grid-row-gap: 5vw;
 }
 
 .servizilistcolumns {
+  position: static;
+  z-index: 2;
   display: flex;
+  padding-bottom: 15px;
   flex-direction: column;
   grid-column-gap: 5vw;
   grid-row-gap: 5vw;
@@ -353,24 +358,26 @@
   padding-bottom: 5%;
   padding-left: 2vw;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: flex-start;
   grid-column-gap: 10%;
   grid-row-gap: 10%;
   border-radius: 1.5vw;
-  box-shadow: -4px 4px 18px 1px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  box-shadow: -4px 4px 18px 1px rgba(46, 196, 182, 0.31);
 }
 
 .serviziotitle {
   display: flex;
-  height: 1em;
   margin-bottom: 0%;
+  padding-top: 0%;
   padding-left: 5%;
   justify-content: center;
   align-items: center;
   font-family: Jost, sans-serif;
   color: #2ec4b6;
-  font-size: 5vw;
+  font-size: 6vw;
+  line-height: 1em;
   font-weight: 700;
   text-align: left;
   letter-spacing: -2px;
@@ -381,8 +388,8 @@
   padding-left: 5%;
   font-family: Jost, sans-serif;
   color: #2ec4b6;
-  font-size: 2vw;
-  line-height: 1em;
+  font-size: 1.4vw;
+  line-height: 1.4em;
   font-weight: 300;
 }
 
@@ -391,8 +398,8 @@
   max-width: 1440px;
   padding-left: 0vw;
   justify-content: space-between;
-  grid-column-gap: 10vw;
-  grid-row-gap: 10vw;
+  grid-column-gap: 5vw;
+  grid-row-gap: 5vw;
 }
 
 .list {
@@ -436,15 +443,15 @@
   letter-spacing: 0.5px;
 }
 
-.portfoliosection {
+.portfoliocards {
   display: flex;
   max-width: 1440px;
-  padding-top: 10vw;
+  padding-top: 15vw;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  grid-column-gap: 10vw;
-  grid-row-gap: 10vw;
+  grid-column-gap: 5vw;
+  grid-row-gap: 5vw;
 }
 
 .slider {
@@ -631,18 +638,20 @@
   font-size: 7vw;
   font-weight: 500;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .chisonosection {
+  position: relative;
+  z-index: 0;
   display: flex;
-  max-width: 1440px;
-  padding-top: 10vw;
+  width: 100vw;
+  padding-top: 15vw;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  grid-column-gap: 7vw;
-  grid-row-gap: 7vw;
+  grid-column-gap: 5vw;
+  grid-row-gap: 5vw;
 }
 
 .mask {
@@ -652,12 +661,13 @@
 .showoffcolumns {
   display: flex;
   width: 54vw;
+  padding-top: 0vw;
   flex-direction: column;
   justify-content: space-around;
   grid-auto-flow: row dense;
   grid-auto-columns: 1fr;
-  grid-column-gap: 10vw;
-  grid-row-gap: 10vw;
+  grid-column-gap: 5vw;
+  grid-row-gap: 5vw;
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto auto;
@@ -670,31 +680,32 @@
   justify-content: center;
   flex-wrap: nowrap;
   align-items: center;
-  grid-column-gap: 11vw;
-  grid-row-gap: 11vw;
+  grid-column-gap: 5vw;
+  grid-row-gap: 5vw;
 }
 
 .showoffcard {
   border-radius: 20px;
-  box-shadow: -4px 5px 18px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: -4px 5px 18px 1px #cbf3f0;
   cursor: auto;
 }
 
 .descrizione {
+  position: relative;
   display: flex;
   width: 100%;
   margin-left: 3vw;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  grid-column-gap: 10vw;
-  grid-row-gap: 10vw;
+  grid-column-gap: 5vw;
+  grid-row-gap: 5vw;
 }
 
 .image {
   position: relative;
   z-index: 2;
-  width: 19vw;
+  width: 25vw;
   height: 100%;
 }
 
@@ -712,7 +723,7 @@
   align-items: center;
   font-family: Jost, sans-serif;
   color: #2ec4b6;
-  font-size: 5vw;
+  font-size: 3vw;
   font-weight: 700;
 }
 
@@ -722,7 +733,7 @@
   font-family: Jost, sans-serif;
   color: #2ec4b6;
   font-size: 1.5vw;
-  line-height: 1em;
+  line-height: 1.5em;
   font-weight: 300;
   letter-spacing: 0.5px;
 }
@@ -977,6 +988,7 @@
   z-index: 5;
   width: 20px;
   height: 100%;
+  margin-left: 0%;
   padding: 0px;
   background-color: rgba(236, 56, 137, 0);
   color: rgba(202, 54, 54, 0);
@@ -1052,8 +1064,9 @@
 .popupcontactarea {
   display: flex;
   width: 100.000061%;
-  height: 100%;
+  height: 80%;
   margin-top: 10%;
+  padding-top: 3%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -1063,14 +1076,13 @@
 
 .mailphonetext {
   display: flex;
-  width: 80%;
-  height: 40%;
+  height: 80%;
   padding-left: 0%;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
-  grid-column-gap: 75%;
-  grid-row-gap: 75%;
+  align-items: flex-start;
+  grid-column-gap: 20%;
+  grid-row-gap: 20%;
 }
 
 .mailarea {
@@ -1083,7 +1095,7 @@
 
 .image-4 {
   width: 70%;
-  height: 30%;
+  height: 40%;
   -o-object-fit: contain;
   object-fit: contain;
 }
@@ -1105,7 +1117,6 @@
 
 .mailphoneicons {
   display: flex;
-  width: 30%;
   height: 80%;
   flex-direction: column;
   justify-content: center;
@@ -1119,7 +1130,7 @@
 .contactcolumns {
   display: flex;
   width: 70%;
-  height: 70%;
+  height: 60%;
   margin-right: 2.5%;
   margin-bottom: 10%;
   margin-left: 0%;
@@ -1134,10 +1145,11 @@
   display: flex;
   width: 100%;
   height: 100%;
-  justify-content: space-around;
+  padding-left: 5%;
+  justify-content: center;
   align-items: center;
-  grid-column-gap: 0%;
-  grid-row-gap: 0%;
+  grid-column-gap: 5%;
+  grid-row-gap: 5%;
 }
 
 .sociallinkspopup {
@@ -1189,8 +1201,8 @@
   z-index: 1;
   display: flex;
   overflow: hidden;
-  width: 28vw;
-  height: 16vw;
+  width: 32vw;
+  height: 18vw;
   justify-content: space-between;
   align-items: center;
   border-radius: 20px;
@@ -1687,14 +1699,15 @@
 }
 
 .portfolioenv {
+  position: relative;
   display: flex;
   width: 100vw;
   max-width: 1440px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  grid-column-gap: 10vw;
-  grid-row-gap: 10vw;
+  grid-column-gap: 5vw;
+  grid-row-gap: 5vw;
 }
 
 .body-2 {
@@ -1732,6 +1745,76 @@
 
 .icon-2 {
   color: #fff;
+}
+
+.sectiontitle {
+  position: absolute;
+  left: 15vw;
+  top: 2%;
+  right: auto;
+  bottom: auto;
+  z-index: 0;
+  display: flex;
+  height: 1em;
+  padding-top: 0vw;
+  align-items: center;
+  font-family: Jost, sans-serif;
+  color: #ffbf69;
+  font-size: 12vw;
+  font-weight: 700;
+}
+
+.servizisection {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfoliosection {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  width: 100vw;
+  padding-top: 0vw;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfoliocolumns {
+  display: flex;
+  width: 54vw;
+  padding-top: 17vw;
+  flex-direction: column;
+  justify-content: space-around;
+  grid-auto-flow: row dense;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 5vw;
+  grid-row-gap: 5vw;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.portfoliopagetitle {
+  position: absolute;
+  left: 15vw;
+  top: 2%;
+  right: auto;
+  bottom: auto;
+  z-index: 0;
+  display: flex;
+  height: 1em;
+  padding-top: 0vw;
+  align-items: center;
+  font-family: Jost, sans-serif;
+  color: #ffbf69;
+  font-size: 12vw;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 991px) {
@@ -1902,6 +1985,18 @@
 
   .icon {
     color: #fff;
+  }
+
+  .sectiontitle {
+    font-size: 11vw;
+  }
+
+  .portfoliocolumns {
+    width: 90vw;
+  }
+
+  .portfoliopagetitle {
+    font-size: 11vw;
   }
 }
 
@@ -2174,6 +2269,10 @@
   .portfoliobutton {
     border-radius: 5px;
     font-size: 6vw;
+  }
+
+  .portfoliopagetitle {
+    top: 1%;
   }
 }
 
