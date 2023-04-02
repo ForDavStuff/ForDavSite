@@ -1,4 +1,4 @@
-/* Generated on: Sun Apr 02 2023 10:44:27 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Apr 02 2023 10:50:19 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -304,14 +304,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
+  grid-column-gap: 5vw;
+  grid-row-gap: 5vw;
 }
 
 .button {
   margin-top: 1px;
   margin-bottom: 1px;
-  padding: 1vw 1.5vw;
+  padding: 0.5em 1em;
   border-style: none;
   border-width: 1px;
   border-color: #fff;
@@ -1713,6 +1713,22 @@
   border-radius: 20px;
 }
 
+.portfoliobutton {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  padding: 0.5em 1em;
+  border-style: none;
+  border-width: 1px;
+  border-color: #fff;
+  border-radius: 11px;
+  background-color: #ff9f1c;
+  font-family: Jost, sans-serif;
+  color: #fff;
+  font-size: 3vw;
+  line-height: 1em;
+  font-weight: 300;
+}
+
 @media screen and (max-width: 991px) {
   .container {
     max-width: 728px;
@@ -1753,7 +1769,7 @@
   }
 
   .headertext {
-    font-size: 7vw;
+    font-size: 9vw;
   }
 
   .button {
@@ -1865,6 +1881,12 @@
   .showoffvideo {
     width: 60vw;
     height: 33vw;
+  }
+
+  .portfoliobutton {
+    margin-top: 5%;
+    border-radius: 10px;
+    font-size: 4vw;
   }
 }
 
@@ -2048,8 +2070,16 @@
     height: 55vw;
   }
 
+  .headertext {
+    font-size: 9vw;
+  }
+
+  .text-span {
+    letter-spacing: 1px;
+  }
+
   .button {
-    border-radius: 2px;
+    border-radius: 5px;
   }
 
   .container-2 {
@@ -2117,6 +2147,11 @@
   .button-6 {
     border-radius: 5px;
     font-size: 2.5vw;
+  }
+
+  .portfoliobutton {
+    border-radius: 5px;
+    font-size: 6vw;
   }
 }
 
