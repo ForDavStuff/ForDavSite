@@ -1,4 +1,4 @@
-/* Generated on: Sun Apr 02 2023 10:19:39 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Apr 02 2023 10:44:27 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1029,7 +1029,7 @@
   display: flex;
   width: 100%;
   height: 10%;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
   grid-column-gap: 30%;
@@ -1037,7 +1037,8 @@
 }
 
 .image-3 {
-  height: 30px;
+  height: 70%;
+  margin-right: 2%;
   cursor: pointer;
 }
 
@@ -1548,7 +1549,7 @@
   height: 39.2vw;
   flex-direction: column;
   flex-wrap: nowrap;
-  border-radius: 25px;
+  border-radius: 2vw;
   background-color: #fff;
   -o-object-fit: fill;
   object-fit: fill;
@@ -1756,8 +1757,9 @@
   }
 
   .button {
+    margin-top: 5%;
     border-radius: 10px;
-    font-size: 2.5vw;
+    font-size: 4vw;
   }
 
   .singoloservizio {
@@ -2082,6 +2084,34 @@
 
   .container-3 {
     max-width: none;
+  }
+
+  .mailphonetext {
+    grid-column-gap: 60%;
+    grid-row-gap: 60%;
+  }
+
+  .contactstext {
+    margin-left: 10%;
+    font-size: 4vw;
+  }
+
+  .contactcolumns {
+    flex-direction: column;
+  }
+
+  .sociallinkspopup {
+    width: 60%;
+    height: 10%;
+    flex-direction: row;
+  }
+
+  .orangevimeo {
+    height: 100%;
+  }
+
+  .contactpopupbkg {
+    height: 60vw;
   }
 
   .button-6 {
