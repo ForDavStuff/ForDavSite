@@ -1,4 +1,4 @@
-/* Generated on: Sun Apr 02 2023 10:53:03 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Apr 02 2023 11:20:01 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -91,6 +91,7 @@
   margin-bottom: 0px;
   justify-content: space-between;
   align-items: center;
+  background-color: #2ec4b6;
 }
 
 .nav-link {
@@ -1729,6 +1730,10 @@
   font-weight: 300;
 }
 
+.icon-2 {
+  color: #fff;
+}
+
 @media screen and (max-width: 991px) {
   .container {
     max-width: 728px;
@@ -1742,12 +1747,18 @@
     display: flex;
     margin-top: 10px;
     padding: 20px;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    border-radius: 50px;
-    background-color: #fff;
+    border-radius: 2vw;
+    background-color: #2ec4b6;
     box-shadow: 0 8px 50px 0 rgba(0, 0, 0, 0.05);
+  }
+
+  .nav-menu-two:focus {
+    justify-content: center;
+    border-radius: 2vw;
+    background-color: #2ec4b6;
   }
 
   .nav-link {
@@ -1887,6 +1898,10 @@
     margin-top: 5%;
     border-radius: 10px;
     font-size: 4vw;
+  }
+
+  .icon {
+    color: #fff;
   }
 }
 
@@ -2079,8 +2094,8 @@
   }
 
   .herotextheader {
-    grid-column-gap: 0vw;
-    grid-row-gap: 0vw;
+    grid-column-gap: 1vw;
+    grid-row-gap: 1vw;
   }
 
   .button {
@@ -2136,9 +2151,11 @@
   }
 
   .sociallinkspopup {
-    width: 60%;
+    width: 40%;
     height: 10%;
     flex-direction: row;
+    grid-column-gap: 20%;
+    grid-row-gap: 20%;
   }
 
   .orangevimeo {
