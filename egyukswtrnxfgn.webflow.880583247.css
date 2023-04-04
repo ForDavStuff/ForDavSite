@@ -1,4 +1,4 @@
-/* Generated on: Sun Apr 02 2023 17:53:00 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Apr 04 2023 09:37:26 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -927,8 +927,8 @@
   position: relative;
   display: flex;
   overflow: visible;
-  width: 150px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   justify-content: center;
   align-items: center;
 }
@@ -1815,6 +1815,15 @@
   color: #ffbf69;
   font-size: 12vw;
   font-weight: 700;
+}
+
+.image-6 {
+  height: 45px;
+}
+
+.image-7 {
+  height: 100%;
+  margin-right: 0%;
 }
 
 @media screen and (max-width: 991px) {
